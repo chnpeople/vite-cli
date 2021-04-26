@@ -3,6 +3,9 @@
     <h1>Home</h1>
     <h2>{{name}}</h2>
     <h3>{{person}}</h3>
+    <button class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 bg-blue-600 hover:bg-red-600 text-white font-semibold py-3 px-6 rounded-md">
+      Hover me
+    </button>
     <el-button @click="change(1)">点击变身</el-button>
     <el-button @click="queryApi" type="primary">ajax</el-button>
     <ul>
